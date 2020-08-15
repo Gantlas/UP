@@ -191,6 +191,27 @@ body {
   font-weight: 600;
 }
 
+.btn-more {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  width: 80%;
+  background-color: lightskyblue;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  margin: 30px 0 50px;
+  padding: 5px 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-more:hover {
+  box-shadow: 0 0 5px 4px lightblue;
+}
+
+.btn-more:focus {
+  box-shadow: 0 0 5px 4px lightblue;
+}
+
 /*============================ search-container ==============================*/
 
 .search-container {
